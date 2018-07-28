@@ -34,7 +34,6 @@ function getRandomQuote(array) {
     newQuote = '<p class="quote">' + array[randomNumber].quote + '</p>';
     newQuote += '<p class="source">' + array[randomNumber].author + '</p>';
   }
-  return newQuote;
 }
 
 
