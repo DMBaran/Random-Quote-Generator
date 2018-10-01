@@ -30,10 +30,8 @@ var quotes = [
 function getRandomQuote(array) {
   var randomQuote = array.length;
   var randomNumber = Math.floor(Math.random() * randomQuote);
-  for(i = 0; i < randomQuote; i++) {
-    newQuote = '<p class="quote">' + array[randomNumber].quote + '</p>';
-    newQuote += '<p class="source">' + array[randomNumber].author + '</p>';
-  }
+  newQuote = '<p class="quote">' + array[randomNumber].quote + '</p>';
+  newQuote += '<p class="source">' + array[randomNumber].author + '</p>';
 }
 
 
